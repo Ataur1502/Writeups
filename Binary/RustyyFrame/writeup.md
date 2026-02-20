@@ -188,6 +188,12 @@ encoded = inverse_transform(payload)
 print(encoded)
 ```
 
+## Flag
+
+```
+BPCTF{stand_proud_mate}
+```
+
 ------------------------------------------------------------------------
 
 ## Final Control Flow
