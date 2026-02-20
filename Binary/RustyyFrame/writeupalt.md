@@ -190,29 +190,11 @@ Final exploit command:
 
     RUSTY_WIN=1 ./rusty_frame
 
-------------------------------------------------------------------------
+Flag
 
-## 11. Security Implications
-
-This demonstrates:
-
--   Environment variables are trusted implicitly.
--   Hidden debug paths can invalidate intended exploitation routes.
--   Static reversing often reveals logic bypasses superior to memory
-    corruption.
-
-------------------------------------------------------------------------
-
-## 12. Final Result
-
-Execution enters `win()` without:
-
--   Stack overflow
--   Partial RIP overwrite
--   ROP
--   Shellcode
-
-Pure logic-level exploitation.
+```
+BPCTF{stand_proud_mate}
+```
 
 ------------------------------------------------------------------------
 
